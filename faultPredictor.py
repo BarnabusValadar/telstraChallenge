@@ -94,6 +94,4 @@ if __name__=="__main__":
         pass
     sub.to_csv(saveFileName, index=False)
     
-    print("Feature importance to xgb: ", xgbModel.feature_importances_)
-    
     print("Finished.")
